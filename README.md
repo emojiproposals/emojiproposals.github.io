@@ -38,3 +38,15 @@ jekyll serve
 ```
 
 Now, you can browse to the URL that the command prints out -- usually [`http://127.0.0.1:4000/`](http://127.0.0.1:4000/) (I even made that a link, just for you).
+
+## Writing stuff
+
+Apparently, whatever `jekyll` uses for markdown has comments... like this:
+
+```
+{% comment %}
+This is a comment
+{% endcomment %}
+```
+
+Probably not a good idea to use this though...
