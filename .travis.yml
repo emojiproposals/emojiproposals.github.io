@@ -3,5 +3,11 @@ cache: bundler
 sudo: false
 rvm: 2.2
 
+addons:
+  apt:
+    packages:
+    - libxslt-dev
+    - libxml2-dev
+
 install: script/bootstrap
 script: script/build
