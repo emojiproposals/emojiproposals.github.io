@@ -7,6 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
 twitter_username: kirilv
 github_username:  catdad
 
+google_analytics: UA-17159207-8
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
