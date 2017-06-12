@@ -9,5 +9,5 @@ addons:
     - libxslt-dev
     - libxml2-dev
 
-install: script/bootstrap
+install: script/bootstrapci
 script: script/build
