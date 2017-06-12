@@ -2,5 +2,10 @@
 
 set -e
 
+sudo apt-get -qq update
+sudo apt-get install -y libxslt-dev libxml2-dev
+
+export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
+
 gem install bundler
 bundle install
