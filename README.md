@@ -17,7 +17,7 @@ rvm gemset create emojiproposals
 rvm gemset use emojiproposals
 ```
 
-Install some stuff needed by `nokogiri`, because I've found that it will never install otherwise.
+Install some stuff needed by `nokogiri`, because I've found that it will never install otherwise:
 
 ```bash
 sudo apt-get install libxslt-dev libxml2-dev
