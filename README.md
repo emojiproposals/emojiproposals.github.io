@@ -28,3 +28,13 @@ Then install all the gems (and also make `nokogiri` use the libs we just install
 ```bash
 NOKOGIRI_USE_SYSTEM_LIBRARIES=1 bundle install
 ```
+
+## Running the site locally
+
+Did you finally manage to install everything? Yeah, I know, it was hard. It's okay though, because you are now ready to write about art. Just one more quick step:
+
+```bash
+jekyll serve
+```
+
+Now, you can browse to the URL that the command prints out -- usually [`http://127.0.0.1:4000/`](http://127.0.0.1:4000/) (I even made that a link, just for you).
