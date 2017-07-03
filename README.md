@@ -17,6 +17,12 @@ rvm gemset create emojiproposals
 rvm gemset use emojiproposals
 ```
 
+_To reset the gemset later, use this command:_
+
+```bash
+rvm gemset use default
+```
+
 Install some stuff needed by `nokogiri`, because I've found that it will never install otherwise:
 
 ```bash
