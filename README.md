@@ -10,7 +10,7 @@ Install `bundler`:
 gem install bundler
 ```
 
-Createa a gemset (whatever that is):
+Create a gemset (whatever that is):
 
 ```bash
 rvm gemset create emojiproposals
